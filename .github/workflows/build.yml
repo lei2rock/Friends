@@ -1,0 +1,43 @@
+name: Friends@lei2rock
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout source
+      uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+
+    - name: Build friends links
+      run: |
+        node -v
+        yarn install
+        yarn build
+        cp -r src/logo dist/logo
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        personal_token: ${{ secrets.GH_TOKEN }}
+        publish_branch: dist
+        publish_dir: ./dist
+        commit_message: ${{ github.event.head_commit.message }}
+
+    - name: Telegram notification
+      if: cancelled() == false
+      uses: xinthink/action-telegram@v1.1
+      with:
+        botToken: ${{ secrets.TG_BOT_TOKEN }} #use bot @BotFather
+        chatId: ${{ secrets.TG_CHAT_ID }} #use bot @userinfobot
+        jobStatus: ${{ job.status }}
+        skipSuccess: false
