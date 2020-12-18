@@ -1,52 +1,51 @@
-"moliu":
-  url: https://shuxinyang.com
+- name: moliu
   logo: shuxinyang.com.jpg
-"miyehn":
-  url: https://miyehn.me/blog
+  url: https://shuxinyang.com
+- name: miyehn
   logo: miyehn.me.jpg
-"阿十九":
-  url: https://ashijiu.github.io
+  url: https://miyehn.me/blog
+- name: 阿十九
   logo: ashijiu.github.io.jpg
-"枫糖":
-  url: https://blog.maplesugar.top
+  url: https://ashijiu.github.io
+- name: 枫糖
   logo: blog.maplesugar.top.svg
-"元哥的日记":
-  url: https://leeee.top
+  url: https://blog.maplesugar.top
+- name: 元哥的日记
   logo: leeee.top.jpg
-"Lan Ling":
-  url: https://muyuuuu.github.io
+  url: https://leeee.top
+- name: Lan Ling
   logo: muyuuuu.github.io.gif
-"人间白玉楼":
-  url: https://www.vksir.zone
+  url: https://muyuuuu.github.io
+- name: 人间白玉楼
   logo: www.vksir.zone.jpg
-"荷戟独彷徨":
-  url: https://guanqr.com
+  url: https://www.vksir.zone
+- name: 荷戟独彷徨
   logo: guanqr.com.png
-"志军的博客":
-  url: https://www.azjhong.com
+  url: https://guanqr.com
+- name: 志军的博客
   logo: www.azjhong.com.png
-"米米的博客":
-  url: https://zhangshuqiao.org
+  url: https://www.azjhong.com
+- name: 米米的博客
   logo: zhangshuqiao.org.jpg
-"ZZONN":
-  url: https://blog.zzonn.com
+  url: https://zhangshuqiao.org
+- name: ZZONN
   logo: blog.zzonn.com.jpg
-"Abalone":
-  url: https://abalone.life
+  url: https://blog.zzonn.com
+- name: Abalone
   logo: abalone.life.gif
-"YD's blog":
-  url: https://ydchen.cn
+  url: https://abalone.life
+- name: YD's blog
   logo: ydchen.cn.jpg
-  text: "小霖最萌啦~~"
-"先谢郭嘉":
-  url: https://xiejiabin.online
+  url: https://ydchen.cn
+- name: 先谢郭嘉
   logo: xiejiabin.online.jpg
-"Willow 空间":
-  url: http://haozz.site
+  url: https://xiejiabin.online
+- name: Willow 空间
   logo: haozz.site.jpg
-"Ljcbaby 小屋":
-  url: https://ljcbaby.top
+  url: http://haozz.site
+- name: Ljcbaby 小屋
   logo: ljcbaby.top.png
-"Daman":
-  url: https://damanyang.cn
+  url: https://ljcbaby.top
+- name: Daman
   logo: damanyang.cn.jpg
+  url: https://damanyang.cn

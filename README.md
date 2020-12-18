@@ -31,14 +31,13 @@
 - 准备需要展示的站点名称，长度应小于 16 个半角字符或 8 个全角字符，否则在展示时可能会被截断
 
 - 在 GitHub 上 Fork 这个仓库
-- 在 `src/logo` 下添加 Logo 图片
+- 在 `src/logo` 文件夹下添加 Logo 图片
   - 文件名格式为 `[domain].[format]`，如 `example.com.png`，`blog.example.com.jpg`
-- 修改 `src/friendslists.yml` 文件
-  - 按照如下格式将你的网站信息添加到 `friendslists.yml` 文件中：
+- 按照如下格式将你的网站信息添加到 `src/friendslists.yml` 文件中：
     ```yaml
-    "站点名称": # 请使用双引号包裹
-      url: https://example.com # 你的网站的 URL
+    - name: 站点名称 # 你的站点名称
       logo: example.com.png # Logo 的文件名
+      url: https://example.com # 你的网站链接
     ```
 
 - 完成上述步骤后，请新建一个 Pull Request
