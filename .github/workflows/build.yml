@@ -18,7 +18,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v2
 
-    - name: Build friends links
+    - name: Build friends list
       run: |
         node -v
         yarn install
@@ -32,12 +32,3 @@ jobs:
         publish_branch: dist
         publish_dir: ./dist
         commit_message: ${{ github.event.head_commit.message }}
-
-    - name: Telegram notification
-      if: cancelled() == false
-      uses: xinthink/action-telegram@v1.1
-      with:
-        botToken: ${{ secrets.TG_BOT_TOKEN }} #use bot @BotFather
-        chatId: ${{ secrets.TG_CHAT_ID }} #use bot @userinfobot
-        jobStatus: ${{ job.status }}
-        skipSuccess: false
