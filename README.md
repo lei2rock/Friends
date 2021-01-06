@@ -42,4 +42,4 @@
 
 - 完成上述步骤后，请新建一个 Pull Request
 - 当 Pull Request 被 Review 并被通过、合并后，你的网站将会尽快显示在 [班班的友链页面](https://blog.dlzhang.com/friends) （这取决于 jsDelivr 更新 CDN 缓存的速度）
-- 如果你不会创建 Pull Request，可以在 [GitHub Issue](https://github.com/lei2rock/friends/issues) 或者 [关于更多页面](https://blog.dlzhang.com/more) 留下上述提及的相关网站信息
+- 如果你不会创建 Pull Request，可以在 [GitHub Discussions](https://github.com/lei2rock/Friends/discussions) 或者 [关于更多页面](https://blog.dlzhang.com/more) 留下上述提及的相关网站信息
