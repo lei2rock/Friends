@@ -7,9 +7,6 @@
 - name: 阿十九
   logo: ashijiu.github.io.jpg
   url: https://ashijiu.github.io
-- name: 枫糖
-  logo: blog.maplesugar.top.svg
-  url: https://blog.maplesugar.top
 - name: 元哥的日记
   logo: leeee.top.jpg
   url: https://leeee.top
@@ -22,9 +19,6 @@
 - name: 荷戟独彷徨
   logo: guanqr.com.png
   url: https://guanqr.com
-- name: 志军的博客
-  logo: www.azjhong.com.png
-  url: https://www.azjhong.com
 - name: 米米的博客
   logo: zhangshuqiao.org.jpg
   url: https://zhangshuqiao.org
@@ -34,9 +28,6 @@
 - name: Abalone
   logo: abalone.life.gif
   url: https://abalone.life
-- name: YD's blog
-  logo: ydchen.cn.jpg
-  url: https://ydchen.cn
 - name: 先谢郭嘉
   logo: xiejiabin.online.jpg
   url: https://xiejiabin.online
